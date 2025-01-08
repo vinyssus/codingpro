@@ -1,0 +1,13 @@
+.top-content{
+    background-image: linear-gradient(to right,#4DB6AC, #00796B);
+    color: white;
+}
+
+span{
+    font-weight: 400;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
