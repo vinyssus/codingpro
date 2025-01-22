@@ -1,0 +1,28 @@
+.carousel.slide{
+  margin-top: 6rem;
+}
+
+.carousel-item img {
+    filter: brightness(50%) contrast(120%);
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Adapte l'image à son conteneur */
+    transition: 0.3s ease; /* Animation au survol */
+  }
+  
+  .carousel-item img:hover {
+    filter: brightness(70%) contrast(140%);
+    transform: scale(1.05); /* Zoom léger au survol */
+  }
+
+  .carousel-caption{
+    position: absolute;
+    bottom: 10rem;
+  }
+
+  /* Retirer le border-radius et personnaliser le bouton */
+.custom-btn {
+    border-radius: 0; /* Retire les coins arrondis */
+    padding: 12px 30px; /* Augmente la taille du bouton (haut-bas, gauche-droite) */
+    font-size: 1.2rem; /* Augmente la taille du texte */
+  }

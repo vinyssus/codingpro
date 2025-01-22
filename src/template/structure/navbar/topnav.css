@@ -1,13 +1,28 @@
-.top-content{
-    background-image: linear-gradient(to right,#4DB6AC, #00796B);
-    color: white;
+.top-content {
+  background: linear-gradient(to left, #00796b, #4db6ac);
+  color: white;
 }
 
-span{
-    font-weight: 400;
+span {
+  font-size: 16px;
+  font-weight: bold;
 }
 
-a{
-text-decoration: none;
-color: white;
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .location-top-nav {
+    font-size: 12px;
+    width: 100% !important;
+    justify-content: start;
+  }
+  span {
+    font-size: 12px;
+  }
+  .top-content {
+    width: 100%;
+  }
 }

@@ -1,0 +1,109 @@
+/* Style pour la version web */
+.nav {
+  background-color: #f8f9fa;
+  height: 5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+.menu-nav-items {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+}
+
+.menu-nav-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-nav-items ul li {
+  display: inline-block;
+}
+
+.menu-nav-items ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  transition: border-bottom 0.3s ease;
+}
+
+.menu-nav-items ul li a:hover {
+  border-bottom: 2px solid #007bff;
+}
+
+/* Appliquer la ligne bleue quand le lien est actif */
+.menu-nav-items ul li a.active {
+  border-bottom: 2px solid #007bff; /* Ligne bleue quand le lien est actif */
+}
+
+/* Styles pour la version mobile */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: #333;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.menu-nav-items.open ul {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  div.brand {
+    display: none;
+  }
+
+  .hamburger {
+    display: block; /* Affiche le bouton hamburger sur les petits écrans */
+  }
+
+  .menu-nav-items {
+    position: absolute;
+    top: 6rem;
+    width: 60%;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.9);
+    left: -500px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+
+  .menu-nav-items.open {
+    left: 0px;
+  }
+
+  .menu-nav-items ul{
+    flex-direction: column; /* Aligne les éléments en colonne sur mobile */
+  }
+
+  .menu-nav-items ul li{
+    position: relative;
+    bottom: 7rem;
+  }
+
+  .menu-nav-items ul li a {
+    color: white;
+  }
+
+  .menu-nav-items ul li {
+    margin: 1rem 0;
+  }
+}
