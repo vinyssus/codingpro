@@ -1,4 +1,5 @@
 import React from "react";
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
             style={{ background: "linear-gradient(to left, #00796b, #4db6ac)" }}
           >
             <div className="me-5">
-              <span>Connectez-vous avec nous sur les réseaux sociaux:</span>
+              <span>Nos réseaux sociaux:</span>
             </div>
             <div>
               <a href="" class="text-white me-4">
@@ -59,26 +60,10 @@ const Footer = () => {
                       height: "2px",
                     }}
                   />
-                  <p>
-                    <a href="#!" className="text-dark">
-                      Application Web
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">
-                      Application Mobile
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">
-                      Hebergement
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">
-                      Sécurité
-                    </a>
-                  </p>
+                  <p>Application Web</p>
+                  <p>Application Mobile</p>
+                  <p>Hebergement</p>
+                  <p>Sécurité</p>
                 </div>
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                   <h6 className="text-uppercase fw-bold">Pages</h6>
@@ -90,31 +75,21 @@ const Footer = () => {
                       height: "2px",
                     }}
                   />
-                  <p>
-                    <a href="#!" className="text-dark">
-                      A propos
+                    <a href="#!" className="lien">
+                      <p> A propos</p>
                     </a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">
-                      Portfolio
+                    <a href="#!" className="lien">
+                      <p>Portfolio</p>
                     </a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">
-                      Team
+                    <a href="#!" className="lien">
+                      <p>Team</p>
                     </a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">
-                      Projets
+                    <a href="#!" className="lien">
+                      <p>Projets</p>
                     </a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">
-                      Contact
+                    <a href="#!" className="lien">
+                      <p>Contact</p>
                     </a>
-                  </p>
                 </div>
                 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                   <h6 className="text-uppercase fw-bold">Contact</h6>

@@ -1,4 +1,5 @@
 import React from "react";
+import "./homeSecondSection.css"
 
 const HomeSecondSection = () => {
   return (
@@ -70,53 +71,53 @@ const HomeSecondSection = () => {
       </section>
 
       <section class="blog bg-f9fbfe d-block d-md-none mt-3">
-            <div class="container">
-                <div class="default-section-title default-section-title-middle">
-                    <h3>Latest News & Updates</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse</p>
+    <div class="container">
+        <div class="default-section-title default-section-title-middle">
+            <h3>Actualités et Innovations</h3>
+            <p>Découvrez les dernières avancées en domotique, développement web et solutions de sécurité pour un monde plus connecté et sécurisé.</p>
+        </div>
+        <div class="section-content">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <a href="blog-details.html"><img src="assets/images/home/7.jpg" alt="image"></img></a>
+                        </div>
+                        <div class="blog-card-text-area">
+                            <h4>Des maisons intelligentes et autonomes</h4>
+                            <p>La domotique transforme nos espaces en environnements intelligents, sûrs et écoénergétiques grâce à des technologies avancées.</p>
+                            <a class="read-more-btn" href="blog-details.html">Lire Plus</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="section-content">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="blog-card">
-                                <div class="blog-card-img">
-                                    <a href="blog-details.html"><img src="assets/images/blog/b1.jpg" alt="image"></img></a>
-                                </div>
-                                <div class="blog-card-text-area">
-                                    <h4><a href="blog-details.html">Responds To Citizens Advice</a></h4>
-                                    <p>Lorem ipsum dolor amet magna set dolor sit amet consectetur adipiscing do elite labore.</p>
-                                    <a class="read-more-btn" href="blog-details.html">Read More</a>
-                                </div>
-                            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <a href="blog-details.html"><img src="assets/images/home/6.jpg" alt="image"></img></a>
                         </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="blog-card">
-                                <div class="blog-card-img">
-                                    <a href="blog-details.html"><img src="assets/images/blog/b2.jpg" alt="image"></img></a>
-                                </div>
-                                <div class="blog-card-text-area">
-                                    <h4><a href="blog-details.html">Housing Advisers Program</a></h4>
-                                    <p>Lorem ipsum dolor amet magna set dolor sit amet consectetur adipiscing do elite labore.</p>
-                                    <a class="read-more-btn" href="blog-details.html">Read More</a>
-                                </div>
-                            </div>
+                        <div class="blog-card-text-area">
+                            <h4>Solutions web sur mesure pour votre entreprise</h4>
+                            <p>Des plateformes performantes et évolutives pour booster votre présence en ligne et automatiser vos processus métiers.</p>
+                            <a class="read-more-btn" href="blog-details.html">Lire Plus</a>
                         </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="blog-card">
-                                <div class="blog-card-img">
-                                    <a href="blog-details.html"><img src="assets/images/blog/b3.jpg" alt="image"></img></a>
-                                </div>
-                                <div class="blog-card-text-area">
-                                    <h4><a href="blog-details.html">Respond To National Report</a></h4>
-                                    <p>Lorem ipsum dolor amet magna set dolor sit amet consectetur adipiscing do elite labore.</p>
-                                    <a class="read-more-btn" href="blog-details.html">Read More</a>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <a href="blog-details.html"><img src="assets/images/home/5.jpg" alt="image"></img></a>
+                        </div>
+                        <div class="blog-card-text-area">
+                            <h4>Surveillance et cybersécurité : un enjeu majeur</h4>
+                            <p>De la vidéosurveillance à la cybersécurité, protégez vos biens et données grâce aux dernières innovations technologiques.</p>
+                            <a class="read-more-btn" href="blog-details.html">Lire Plus</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
     </div>
   );
 };
