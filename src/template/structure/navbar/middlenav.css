@@ -15,6 +15,11 @@
   height: 100%;
 }
 
+.logo{
+  max-width: 300px;
+  max-height: 70px;
+}
+
 .menu-nav-items {
   display: flex;
   justify-content: center;
@@ -65,13 +70,34 @@
   display: block;
 }
 
+.nav-mobile{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.brand-mobile{
+  display: none;
+}
+
 @media (max-width: 768px) {
   div.brand {
     display: none;
   }
 
   .hamburger {
-    display: block; /* Affiche le bouton hamburger sur les petits écrans */
+    display: flex;
+    width: 30%;
+  }
+
+  .brand-mobile{
+    display: flex;
+    width: 70%;
+    justify-content: end;
+  }
+
+  .brand-mobile img{
+    margin-right: 1rem;
   }
 
   .menu-nav-items {

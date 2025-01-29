@@ -1,9 +1,10 @@
 import React from 'react'
+import ContactFirst from '../../components/contact/contactFirst/ContactFirst.tsx'
 
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+     <ContactFirst />
     </div>
   )
 }

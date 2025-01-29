@@ -3,7 +3,7 @@ import "./middlenav.css";
 import { NavLink } from "react-router-dom";
 
 const MiddleHeader = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); 
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = (): void => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -13,14 +13,14 @@ const MiddleHeader = () => {
     <>
       <nav className="nav nav-web d-flex">
         <div className="brand">
-          <h2>Coding-Pro</h2>
+          <img src="assets/images/logo.png" alt="logo" className="logo"></img>
         </div>
         <div className={`menu-nav-items ${isMobileMenuOpen ? "open" : ""}`}>
           <ul className="d-flex h-100 w-100 justify-content-center align-items-center gap-3">
             <li>
               <NavLink
                 to="/"
-                className={({ isActive }) => (isActive ? "active" : "")} 
+                className={({ isActive }) => (isActive ? "active" : "")}
                 onClick={() => toggleMobileMenu()}
               >
                 Acceuil
@@ -73,9 +73,14 @@ const MiddleHeader = () => {
             </li>
           </ul>
         </div>
-        <button className="hamburger" onClick={toggleMobileMenu}>
-          {isMobileMenuOpen ? "X" : "☰"}
-        </button>
+        <div class="nav-mobile">
+          <button className="hamburger" onClick={toggleMobileMenu}>
+            {isMobileMenuOpen ? "X" : "☰"}
+          </button>
+          <div className="brand-mobile">
+            <img src="assets/images/logo.png" alt="logo" className="logo"></img>
+          </div>
+        </div>
       </nav>
     </>
   );
