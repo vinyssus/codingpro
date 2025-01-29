@@ -1,3 +1,8 @@
 .lien p{
     padding-bottom: 16px;
 }
+
+.logo{
+    max-width: 300px;
+  max-height: 70px;
+}

@@ -32,18 +32,10 @@ const Footer = () => {
             </div>
           </section>
           <section className="">
-            <div className="container text-center text-md-start mt-5">
+            <div className="container text-center text-md-start mt-3">
               <div className="row mt-3">
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold">Coding pro</h6>
-                  <hr
-                    className="mb-4 mt-0 d-inline-block mx-auto"
-                    style={{
-                      width: "60px",
-                      backgroundColor: "#7c4dff",
-                      height: "2px",
-                    }}
-                  />
+                  <img className="logo" src="assets/images/logo.png" alt="logo" />
                   <p>
                     La satisfaction de nos clients est notre priorité absolue.
                     Nous nous engageons à offrir des solutions adaptées et de
