@@ -97,7 +97,7 @@ const Footer = () => {
                     <i class="flaticon-home mr-3"></i> Bonamoussadi, Douala, CMR
                   </p>
                   <p>
-                    <i class="flaticon-email mr-3"></i> info@coding-pro.com
+                    <i class="flaticon-email mr-3"></i> contact@vrn-inovation.com
                   </p>
                   <p>
                     <i class="flaticon-phone-call mr-3"></i> + 237 658 060 432

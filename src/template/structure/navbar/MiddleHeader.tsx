@@ -41,7 +41,7 @@ const MiddleHeader = () => {
                 className={({ isActive }) => (isActive ? "active" : "")}
                 onClick={() => toggleMobileMenu()}
               >
-                Portfolio
+                Services
               </NavLink>
             </li>
             <li>

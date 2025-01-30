@@ -11,6 +11,7 @@ import Header from "./template/structure/navbar/Header.tsx";
 import Team from "./template/pages/team/Team.tsx";
 import News from "./template/pages/news/News.tsx";
 import Footer from "./template/structure/footer/Footer.tsx";
+import DetailWeb from "./template/pages/detail/DetailWeb.tsx";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/detail-web" element={<DetailWeb />} />
       </Routes>
       <Footer />
     </Router>
