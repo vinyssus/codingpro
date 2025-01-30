@@ -103,7 +103,7 @@ const Footer = () => {
                     <i class="flaticon-phone-call mr-3"></i> + 237 658 060 432
                   </p>
                   <p>
-                    <i class="flaticon-printer mr-3"></i> + 216 99 501 379
+                    <i class="flaticon-phone-call mr-3"></i> + 237 683 355 568
                   </p>
                 </div>
               </div>

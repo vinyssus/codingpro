@@ -2,52 +2,39 @@ import React from "react";
 
 function ContactFirst() {
   return (
-    <section class="topbar plr-100 bg-black">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-            <div class="topbar-left-area">
-              <ul>
-                <li>
-                  <a href="mailto:support@medzo.com">
-                    <i class="fas fa-envelope"></i> support@medzo.com
-                  </a>
-                </li>
-                <li>
-                  <a href="https://goo.gl/maps/T3S78DrzqMegjsLy6">
-                    <i class="fas fa-map-marker-alt"></i> 2364 FL 34620, New
-                    York, USA
-                  </a>
-                </li>
-              </ul>
+    <section className="contact-card-area pt-70 pb-100">
+    <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="contact-card">
+                    <i className="fas fa-map-marker-alt"></i>
+                    <h5>Notre Adresse</h5>
+                    <p>
+                        <a href="https://goo.gl/maps/zZEtThmwqkPz2GTE7" target="_blank">
+                            Douala, Bonamoussadi, En face du Mermo 
+                        </a>
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-            <div class="topbar-right-area">
-              <ul>
-                <li>
-                  <a href="profile-authentication.html">
-                    <i class="fas fa-user"></i> Login
-                  </a>
-                </li>
-                <li>
-                  <div class="language-select option-select-area">
-                    <i class="fas fa-globe"></i>
-                    <select>
-                      <option value="1">English</option>
-                      <option value="2">العربيّة</option>
-                      <option value="3">Dutch</option>
-                      <option value="4">Thai</option>
-                      <option value="5">简体中</option>
-                    </select>
-                  </div>
-                </li>
-              </ul>
+            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="contact-card">
+                    <i className="fas fa-envelope"></i>
+                    <h5>Notre Email</h5>
+                    <p><a href="mailto:contact@vrn-innovation.com">contact@vrn-innovation.com</a></p>
+                    <p><a href="mailto:vinyssusrodolphe@gmail.com">vinyssusrodolphe@gmail.com</a></p>
+                </div>
             </div>
-          </div>
+            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="contact-card">
+                    <i className="fas fa-phone-alt"></i>
+                    <h5>Nos Contacts</h5>
+                    <p><a href="tel:+44587154756">+237 658 060432</a></p>
+                    <p><a href="tel:+44587154757">+237 683 355568</a></p>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
   );
 }
 
