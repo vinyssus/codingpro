@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import "./middlenav.css";
 import { NavLink } from "react-router-dom";
 
-const MiddleHeader = () => {
+interface MiddleHeaderProps {
+  isSticky: boolean;
+}
+
+const MiddleHeader: React.FC<MiddleHeaderProps> = ({ isSticky }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = (): void => {
@@ -11,7 +15,7 @@ const MiddleHeader = () => {
 
   return (
     <>
-      <nav className="nav nav-web d-flex">
+      <nav className={`nav nav-web d-flex ${isSticky ? "sticky" : ""}`}>
         <div className="brand">
           <img src="assets/images/logo.png" alt="logo" className="logo"></img>
         </div>

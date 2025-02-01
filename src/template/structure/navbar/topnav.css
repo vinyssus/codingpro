@@ -1,6 +1,20 @@
+.top-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.hidden {
+  transform: translateY(-100%);
+}
+
 .top-content {
   background: linear-gradient(to left, #00796b, #4db6ac);
   color: white;
+  width: 100%;
 }
 
 span {

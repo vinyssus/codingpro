@@ -12,7 +12,7 @@ const ServiceList = () => {
                     <div className="service-card">
                         <div className="service-card-img">
                             <a href="service-details.html"><img src="assets/images/services/web.jpg" alt="Développement Web" /></a>
-                            <i className="flaticon-web-development"></i>
+                            <i className="flaticon-google-docs"></i>
                         </div>
                         <div className="service-card-text">
                             <NavLink to="detail-web"><h4>Développement d'Applications Web</h4></NavLink>
@@ -26,7 +26,7 @@ const ServiceList = () => {
                     <div className="service-card">
                         <div className="service-card-img">
                             <a href="service-details.html"><img src="assets/images/services/mobile.jpg" alt="Développement Mobile" /></a>
-                            <i className="flaticon-mobile-app"></i>
+                            <i className="flaticon-phone-call"></i>
                         </div>
                         <div className="service-card-text">
                             <a href="#"><h4>Développement d'Applications Mobiles</h4></a>

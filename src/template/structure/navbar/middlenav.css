@@ -1,10 +1,23 @@
 /* Style pour la version web */
 .nav {
+  position: relative;
+  top: 2rem;
   background-color: #f8f9fa;
   height: 5rem;
   width: 100%;
   margin: 0;
   padding: 0;
+  transition: top 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #666;
+  z-index: 1000;
 }
 
 .brand {
@@ -102,7 +115,7 @@
 
   .menu-nav-items {
     position: absolute;
-    top: 6rem;
+    top: 5rem;
     width: 60%;
     height: 100vh;
     z-index: 999;
