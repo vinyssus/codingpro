@@ -15,7 +15,7 @@ const HomeSlider = () => {
             className="d-block w-100"
             alt="slider1"
           ></img>
-          <div className="carousel-caption d-none d-md-block">
+          <div className="carousel-caption d-none d-md-block d-flex justify-content-center align-items-center flex-column">
             <h5>Sécurisez votre croissance</h5>
             <p style={{color:"white"}}>
               L’optimisation continue pour garantir un environnement stable et

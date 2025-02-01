@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <>
-      <div style={{position: "fixed", top: 0, zIndex: 10000, width: "100%" }}>
+      <div style={{position: "fixed", top: "-7px", zIndex: 10000, width: "100%" }}>
       <TopNavbar isHidden={isHidden} />
       <MiddleHeader isSticky={isHidden} />
     </div>

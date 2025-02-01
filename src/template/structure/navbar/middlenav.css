@@ -60,12 +60,12 @@
 }
 
 .menu-nav-items ul li a:hover {
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #00796b;
 }
 
 /* Appliquer la ligne bleue quand le lien est actif */
 .menu-nav-items ul li a.active {
-  border-bottom: 2px solid #007bff; /* Ligne bleue quand le lien est actif */
+  border-bottom: 2px solid #00796b; /* Ligne bleue quand le lien est actif */
 }
 
 /* Styles pour la version mobile */
@@ -94,6 +94,19 @@
 }
 
 @media (max-width: 768px) {
+
+  .nav {
+    position: relative;
+    top: 2rem;
+    background-color: #f8f9fa;
+    height: 5rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    transition: top 0.3s ease-in-out;
+    z-index: 999;
+  }
+
   div.brand {
     display: none;
   }
