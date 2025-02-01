@@ -26,7 +26,6 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/detail-web" element={<DetailWeb />} />
-        <Chatbot />
       </Routes>
       <Footer />
     </Router>
