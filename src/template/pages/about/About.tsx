@@ -1,9 +1,12 @@
 import React from 'react'
+import AboutBanner from '../../components/about/aboutBanner/AboutBanner.tsx'
+import AboutContent from '../../components/about/aboutContent/AboutContent.tsx'
 
 const About = () => {
   return (
     <div>
-      <h1>A propos</h1>
+      <AboutBanner />
+      <AboutContent />
     </div>
   )
 }

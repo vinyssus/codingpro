@@ -1,9 +1,12 @@
 import React from 'react'
+import TeamBanner from '../../components/team/TeamBanner.tsx'
+import Teamcontend from '../../components/team/Teamcontend.tsx'
 
 const Team = () => {
   return (
     <div>
-      <h1>Team</h1>
+      <TeamBanner />
+      <Teamcontend />
     </div>
   )
 }

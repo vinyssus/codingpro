@@ -57,7 +57,8 @@ const MiddleHeader: React.FC<MiddleHeaderProps> = ({ isSticky }) => {
                 Team
               </NavLink>
             </li>
-            <li>
+            {/* 
+              <li>
               <NavLink
                 to="/news"
                 className={({ isActive }) => (isActive ? "active" : "")}
@@ -66,6 +67,7 @@ const MiddleHeader: React.FC<MiddleHeaderProps> = ({ isSticky }) => {
                 News
               </NavLink>
             </li>
+            */}
             <li>
               <NavLink
                 to="/contact"
