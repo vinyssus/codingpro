@@ -113,9 +113,9 @@ const Footer = () => {
             className="text-center p-3"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
           >
-            © 2025 Copyright:
-            <a className="text-dark" href="https://vinyssus.com">
-              vinyssus.com
+            © 2025 Copyright :
+            <a className="text-dark" href="#" style={{ marginLeft: "4px" }}>
+            NVR INNOVATION
             </a>
           </div>
         </footer>
