@@ -1,7 +1,7 @@
 /* Style pour la version web */
 .nav {
   position: relative;
-  top: 2rem;
+  top: 1.5rem;
   background-color: #f8f9fa;
   height: 5rem;
   width: 100%;
@@ -97,7 +97,6 @@
 
   .nav {
     position: relative;
-    top: 2rem;
     background-color: #f8f9fa;
     height: 5rem;
     width: 100%;

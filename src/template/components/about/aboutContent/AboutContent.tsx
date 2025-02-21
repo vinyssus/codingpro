@@ -42,14 +42,14 @@ const AboutContent = () => {
                 <div className="row">
                     <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div className="fun-facts-card fun-facts-card-2">
-                        <i class="bi bi-cast"></i>
+                        <i className="bi bi-cast"></i>
                             <h2><span className="odometer" data-count="150">22</span>+</h2>
                             <p>Projets Réalisés</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div className="fun-facts-card fun-facts-card-2">
-                        <i class="bi bi-people"></i>
+                        <i className="bi bi-people"></i>
                             <h2>
                                 <span className="odometer" data-count="50">16</span>+
                             </h2>
@@ -58,7 +58,7 @@ const AboutContent = () => {
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div className="fun-facts-card fun-facts-card-2">
-                        <i class="flaticon-park-1"></i>
+                        <i className="flaticon-park-1"></i>
                             <h2>
                                 <span className="odometer" data-count="10">04</span>+
                             </h2>
@@ -67,7 +67,7 @@ const AboutContent = () => {
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div className="fun-facts-card last-card fun-facts-card-2">
-                        <i class="bi bi-mortarboard"></i>
+                        <i className="bi bi-mortarboard"></i>
                             <h2>
                                 <span className="odometer" data-count="25">12</span>+
                             </h2>

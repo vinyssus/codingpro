@@ -17,17 +17,17 @@ const Footer = () => {
               <span>Nos réseaux sociaux:</span>
             </div>
             <div>
-              <a href="" class="text-white me-4">
-                <i class="flaticon-facebook"></i>
+              <a href="" className="text-white me-4">
+                <i className="flaticon-facebook"></i>
               </a>
-              <a href="" class="text-white me-4">
-                <i class="flaticon-twitter"></i>
+              <a href="" className="text-white me-4">
+                <i className="flaticon-twitter"></i>
               </a>
-              <a href="" class="text-white me-4">
-                <i class="flaticon-instagram"></i>
+              <a href="" className="text-white me-4">
+                <i className="flaticon-instagram"></i>
               </a>
-              <a href="" class="text-white me-4">
-                <i class="flaticon-linkedin"></i>
+              <a href="" className="text-white me-4">
+                <i className="flaticon-linkedin"></i>
               </a>
             </div>
           </section>
@@ -94,16 +94,16 @@ const Footer = () => {
                     }}
                   />
                   <p>
-                    <i class="flaticon-home mr-3"></i> Bonamoussadi, Douala, CMR
+                    <i className="flaticon-home mr-3"></i> Bonamoussadi, Douala, CMR
                   </p>
                   <p>
-                    <i class="flaticon-email mr-3"></i> contact@vrn-inovation.com
+                    <i className="flaticon-email mr-3"></i> contact@vrn-inovation.com
                   </p>
                   <p>
-                    <i class="flaticon-phone-call mr-3"></i> + 237 658 060 432
+                    <i className="flaticon-phone-call mr-3"></i> + 237 658 060 432
                   </p>
                   <p>
-                    <i class="flaticon-phone-call mr-3"></i> + 237 683 355 568
+                    <i className="flaticon-phone-call mr-3"></i> + 237 683 355 568
                   </p>
                 </div>
               </div>

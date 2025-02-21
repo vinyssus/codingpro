@@ -79,7 +79,7 @@ const MiddleHeader: React.FC<MiddleHeaderProps> = ({ isSticky }) => {
             </li>
           </ul>
         </div>
-        <div class="nav-mobile">
+        <div className="nav-mobile">
           <button className="hamburger" onClick={toggleMobileMenu}>
             {isMobileMenuOpen ? "X" : "☰"}
           </button>

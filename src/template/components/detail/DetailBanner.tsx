@@ -3,9 +3,9 @@ import React from 'react'
 const DetailBanner = () => {
   return (
     <div>
-        <section class="uni-banner"> 
-            <div class="container">
-                <div class="uni-banner-text-area">
+        <section className="uni-banner"> 
+            <div className="container">
+                <div className="uni-banner-text-area">
                     <h1>Service Details</h1>
                     <ul>
                         <li><a href="index.html">Home</a></li>

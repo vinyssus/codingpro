@@ -7,7 +7,7 @@ const ServiceList = () => {
     <div>
       <section className="service pt-70 pb-100">
         <div className="container">
-        <div class="default-section-title default-section-title-middle">
+        <div className="default-section-title default-section-title-middle">
         <h3>Nos services</h3>
       </div>
           <div className="row justify-content-center">
@@ -20,7 +20,7 @@ const ServiceList = () => {
                       alt="Développement Web"
                     />
                   </a>
-                  <i class="bi bi-browser-chrome"></i>
+                  <i className="bi bi-browser-chrome"></i>
                 </div>
                 <div className="service-card-text">
                   <NavLink to="detail-web">
@@ -46,7 +46,7 @@ const ServiceList = () => {
                       alt="Développement Mobile"
                     />
                   </a>
-                  <i class="bi bi-phone-fill"></i>
+                  <i className="bi bi-phone-fill"></i>
                 </div>
                 <div className="service-card-text">
                   <a href="#">
@@ -72,7 +72,7 @@ const ServiceList = () => {
                       alt="Hébergement"
                     />
                   </a>
-                  <i class="bi bi-cloud-arrow-down-fill"></i>
+                  <i className="bi bi-cloud-arrow-down-fill"></i>
                 </div>
                 <div className="service-card-text">
                   <a href="#">
@@ -99,7 +99,7 @@ const ServiceList = () => {
                       alt="Marketing Digital"
                     />
                   </a>
-                  <i class="bi bi-bag-heart-fill"></i>
+                  <i className="bi bi-bag-heart-fill"></i>
                 </div>
                 <div className="service-card-text">
                   <a href="#">
@@ -126,7 +126,7 @@ const ServiceList = () => {
                       alt="Design Graphique"
                     />
                   </a>
-                  <i class="bi bi-door-closed-fill"></i>
+                  <i className="bi bi-door-closed-fill"></i>
                 </div>
                 <div className="service-card-text">
                   <a href="#">
@@ -153,7 +153,7 @@ const ServiceList = () => {
                       alt="Sécurité"
                     />
                   </a>
-                  <i class="bi bi-webcam-fill"></i>
+                  <i className="bi bi-webcam-fill"></i>
                 </div>
                 <div className="service-card-text">
                   <a href="#">
@@ -180,7 +180,7 @@ const ServiceList = () => {
                       alt="Domotique"
                     />
                   </a>
-                  <i class="bi bi-house-gear-fill"></i>
+                  <i className="bi bi-house-gear-fill"></i>
                 </div>
                 <div className="service-card-text">
                   <a href="#">
@@ -207,7 +207,7 @@ const ServiceList = () => {
                       alt="Formation"
                     />
                   </a>
-                  <i class="bi bi-pc-display-horizontal"></i>
+                  <i className="bi bi-pc-display-horizontal"></i>
                 </div>
                 <div className="service-card-text">
                   <a href="#">
@@ -234,7 +234,7 @@ const ServiceList = () => {
                       alt="Consultation IT"
                     />
                   </a>
-                  <i class="bi bi-laptop"></i>
+                  <i className="bi bi-laptop"></i>
                 </div>
                 <div className="service-card-text">
                   <a href="#">

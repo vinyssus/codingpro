@@ -4,9 +4,9 @@ import "./homeSecondSection.css"
 const HomeSecondSection = () => {
   return (
     <div>
-      <section class="explore-event explore-event-1 mt-3 d-none d-md-block">
-        <div class="container">
-          <div class="default-section-title default-section-title-middle">
+      <section className="explore-event explore-event-1 mt-3 d-none d-md-block">
+        <div className="container">
+          <div className="default-section-title default-section-title-middle">
             <h3>Découvrez un Futur Connecté</h3>
             <p>
               Nous transformons le quotidien grâce à des solutions
@@ -15,11 +15,11 @@ const HomeSecondSection = () => {
               plusieurs continents pour façonner l'avenir.
             </p>
           </div>
-          <div class="section-content">
-            <div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="explore-events-text-area">
-                  <div class="default-section-title">
+          <div className="section-content">
+            <div className="row">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div className="explore-events-text-area">
+                  <div className="default-section-title">
                     <h3>
                       Un Leadership Visionnaire au Service de la Transformation
                     </h3>
@@ -32,8 +32,8 @@ const HomeSecondSection = () => {
                       solutions adaptées et durables.
                     </p>
                   </div>
-                  <div class="explore-events-text-list">
-                    <i class="flaticon-government"></i>
+                  <div className="explore-events-text-list">
+                    <i className="flaticon-government"></i>
                     <h4>Construire Ensemble un Avenir Meilleur :</h4>
                     <p>
                       En collaborant avec des experts du monde entier, nous
@@ -57,8 +57,8 @@ const HomeSecondSection = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="explore-events-img">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div className="explore-events-img">
                   <img
                     src="assets/images/home/2.jpg"
                     alt="Un ingénieur visionnaire pour un avenir connecté"
@@ -70,47 +70,47 @@ const HomeSecondSection = () => {
         </div>
       </section>
 
-      <section class="blog bg-f9fbfe d-block d-md-none mt-3">
-    <div class="container">
-        <div class="default-section-title default-section-title-middle">
+      <section className="blog bg-f9fbfe d-block d-md-none mt-3">
+    <div className="container">
+        <div className="default-section-title default-section-title-middle">
             <h3>Actualités et Innovations</h3>
             <p>Découvrez les dernières avancées en domotique, développement web et solutions de sécurité pour un monde plus connecté et sécurisé.</p>
         </div>
-        <div class="section-content">
-            <div class="row justify-content-center">
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="blog-card">
-                        <div class="blog-card-img">
+        <div className="section-content">
+            <div className="row justify-content-center">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div className="blog-card">
+                        <div className="blog-card-img">
                             <a href="blog-details.html"><img src="assets/images/home/7.jpg" alt="image"></img></a>
                         </div>
-                        <div class="blog-card-text-area">
+                        <div className="blog-card-text-area">
                             <h4>Des maisons intelligentes et autonomes</h4>
                             <p>La domotique transforme nos espaces en environnements intelligents, sûrs et écoénergétiques grâce à des technologies avancées.</p>
-                            <a class="read-more-btn" href="blog-details.html">Lire Plus</a>
+                            <a className="read-more-btn" href="blog-details.html">Lire Plus</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="blog-card">
-                        <div class="blog-card-img">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div className="blog-card">
+                        <div className="blog-card-img">
                             <a href="blog-details.html"><img src="assets/images/home/6.jpg" alt="image"></img></a>
                         </div>
-                        <div class="blog-card-text-area">
+                        <div className="blog-card-text-area">
                             <h4>Solutions web sur mesure pour votre entreprise</h4>
                             <p>Des plateformes performantes et évolutives pour booster votre présence en ligne et automatiser vos processus métiers.</p>
-                            <a class="read-more-btn" href="blog-details.html">Lire Plus</a>
+                            <a className="read-more-btn" href="blog-details.html">Lire Plus</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="blog-card">
-                        <div class="blog-card-img">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div className="blog-card">
+                        <div className="blog-card-img">
                             <a href="blog-details.html"><img src="assets/images/home/5.jpg" alt="image"></img></a>
                         </div>
-                        <div class="blog-card-text-area">
+                        <div className="blog-card-text-area">
                             <h4>Surveillance et cybersécurité : un enjeu majeur</h4>
                             <p>De la vidéosurveillance à la cybersécurité, protégez vos biens et données grâce aux dernières innovations technologiques.</p>
-                            <a class="read-more-btn" href="blog-details.html">Lire Plus</a>
+                            <a className="read-more-btn" href="blog-details.html">Lire Plus</a>
                         </div>
                     </div>
                 </div>
