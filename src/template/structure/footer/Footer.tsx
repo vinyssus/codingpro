@@ -115,7 +115,7 @@ const Footer = () => {
           >
             © 2025 Copyright :
             <a className="text-dark" href="#" style={{ marginLeft: "4px" }}>
-            NVR INNOVATION
+            VRN INNOVATION
             </a>
           </div>
         </footer>
