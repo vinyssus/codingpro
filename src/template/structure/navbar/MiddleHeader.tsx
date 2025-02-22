@@ -6,7 +6,11 @@ interface MiddleHeaderProps {
   isSticky: boolean;
 }
 
-const MiddleHeader: React.FC<MiddleHeaderProps> = ({ isSticky }) => {
+interface TopNavbarProps {
+  isHidden: boolean;
+}
+
+const MiddleHeader: React.FC<MiddleHeaderProps> = ({ isSticky, isHidden }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = (): void => {
@@ -15,7 +19,7 @@ const MiddleHeader: React.FC<MiddleHeaderProps> = ({ isSticky }) => {
 
   return (
     <>
-      <nav className={`nav nav-web d-flex ${isSticky ? "sticky" : ""}`}>
+      <nav className="nav nav-web d-flex">
         <div className="brand">
           <img src="assets/images/logo.png" alt="logo" className="logo"></img>
         </div>

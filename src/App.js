@@ -12,7 +12,6 @@ import Team from "./template/pages/team/Team.tsx";
 import News from "./template/pages/news/News.tsx";
 import Footer from "./template/structure/footer/Footer.tsx";
 import DetailWeb from "./template/pages/detail/DetailWeb.tsx";
-import Chatbot from "./chatbot/Chatbot.tsx";
 
 function App() {
   return (
