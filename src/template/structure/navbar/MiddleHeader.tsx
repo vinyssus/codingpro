@@ -61,17 +61,6 @@ const MiddleHeader: React.FC<MiddleHeaderProps> = ({ isSticky, isHidden }) => {
                 Team
               </NavLink>
             </li>
-            {/* 
-              <li>
-              <NavLink
-                to="/news"
-                className={({ isActive }) => (isActive ? "active" : "")}
-                onClick={() => toggleMobileMenu()}
-              >
-                News
-              </NavLink>
-            </li>
-            */}
             <li>
               <NavLink
                 to="/contact"

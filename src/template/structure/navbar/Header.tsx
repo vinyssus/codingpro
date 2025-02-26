@@ -23,8 +23,8 @@ const Header = () => {
 
   return (
     <>
-      <TopNavbar isHidden={isHidden} />
-      <MiddleHeader isSticky={isHidden} />
+      <TopNavbar />
+      <MiddleHeader />
     </>
   )
 }

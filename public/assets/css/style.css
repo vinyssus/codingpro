@@ -3013,6 +3013,7 @@ Inner Area CSS
   background-position: center;
   background-image: url("../images/home/3.jpg");
   position: relative;
+  top: 4rem;
 }
 
 .uni-banner::before {
