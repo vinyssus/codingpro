@@ -1,6 +1,6 @@
 /* Style pour la version web */
 .nav {
-  position: fixed;
+  position: relative;
   background-color: #f8f9fa;
   height: 5rem;
   width: 100%;
