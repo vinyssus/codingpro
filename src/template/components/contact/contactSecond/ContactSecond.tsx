@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactSecond = () => {
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_mdb6izc', 'template_5sflthd', form.current, {
+        publicKey: 'KnpSwhuXxsyMxnLxJ',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
  <div>
-    <section className="contact-form-area pb-100">
+    <section className="contact-form-area pb-2">
         <div className="container">
             <div className="default-section-title default-section-title-middle">
                 <h3>Contactez-nous</h3>
@@ -20,7 +41,7 @@ const ContactSecond = () => {
                     </div>
                     <div className="col-lg-8">
                         <div className="contact-form-text-area">
-                            <form id="contactForm">
+                            <form id="contactForm" ref={form} onSubmit={sendEmail}>
                                 <div className="row align-items-center">
                                     <div className="col-md-6 col-sm-6 col-12">
                                         <div className="form-group">
@@ -29,6 +50,7 @@ const ContactSecond = () => {
                                                 className="form-control"
                                                 placeholder="Nom"
                                                 id="name"
+                                                name="name"
                                                 required
                                                 data-error="Veuillez entrer votre nom"
                                             ></input>
@@ -53,7 +75,7 @@ const ContactSecond = () => {
                                         <div className="form-group">
                                             <input
                                                 type="text"
-                                                name="phone_number"
+                                                name="phone"
                                                 className="form-control"
                                                 placeholder="Numéro de téléphone"
                                                 id="phone_number"
@@ -67,7 +89,7 @@ const ContactSecond = () => {
                                         <div className="form-group">
                                             <input
                                                 type="text"
-                                                name="msg_subject"
+                                                name="subject"
                                                 className="form-control"
                                                 placeholder="Sujet"
                                                 id="msg_subject"

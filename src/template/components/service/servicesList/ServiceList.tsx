@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const ServiceList = () => {
   return (
     <div>
-      <section className="service pt-70 pb-100">
+      <section className="service pt-4 pb-3">
         <div className="container">
         <div className="default-section-title default-section-title-middle">
         <h3>Nos services</h3>
@@ -50,7 +50,9 @@ const ServiceList = () => {
                 </div>
                 <div className="service-card-text">
                   <a href="#">
-                    <h4>Développement d'Applications Mobiles</h4>
+                  <NavLink to="detail-mobile">
+                  <h4>Développement d'Applications Mobiles</h4>
+                  </NavLink>
                   </a>
                   <p>
                     Création d’applications mobiles natives et hybrides pour
@@ -75,9 +77,9 @@ const ServiceList = () => {
                   <i className="bi bi-cloud-arrow-down-fill"></i>
                 </div>
                 <div className="service-card-text">
-                  <a href="#">
-                    <h4>Hébergement et Gestion de Code</h4>
-                  </a>
+                  <NavLink to="detail-hebergement">
+                  <h4>Hébergement et Gestion de Code</h4>
+                  </NavLink>
                   <p>
                     Solutions d'hébergement performantes et sécurisées pour vos
                     applications et sites web, avec gestion et maintenance du
@@ -102,9 +104,9 @@ const ServiceList = () => {
                   <i className="bi bi-bag-heart-fill"></i>
                 </div>
                 <div className="service-card-text">
-                  <a href="#">
-                    <h4>Marketing Digital</h4>
-                  </a>
+                  <NavLink to="detail-marketing">
+                  <h4>Marketing Digital</h4>
+                  </NavLink>
                   <p>
                     Développez votre visibilité en ligne avec des stratégies de
                     marketing digital efficaces : SEO, réseaux sociaux,
@@ -129,9 +131,9 @@ const ServiceList = () => {
                   <i className="bi bi-door-closed-fill"></i>
                 </div>
                 <div className="service-card-text">
-                  <a href="#">
-                    <h4>Conception de Logos et Flyers</h4>
-                  </a>
+                  <NavLink to="detail-flyers">
+                  <h4>Conception de Logos et Flyers</h4>
+                  </NavLink>
                   <p>
                     Création de logos uniques et de supports de communication
                     visuelle (flyers, affiches, cartes de visite) pour valoriser
@@ -156,9 +158,9 @@ const ServiceList = () => {
                   <i className="bi bi-webcam-fill"></i>
                 </div>
                 <div className="service-card-text">
-                  <a href="#">
-                    <h4>Installation de Caméras et Alarmes</h4>
-                  </a>
+                  <NavLink to="detail-camera">
+                  <h4>Installation de Caméras et Alarmes</h4>
+                  </NavLink>
                   <p>
                     Solutions complètes pour la sécurité de votre domicile ou
                     entreprise : installation de caméras de surveillance et
@@ -183,9 +185,9 @@ const ServiceList = () => {
                   <i className="bi bi-house-gear-fill"></i>
                 </div>
                 <div className="service-card-text">
-                  <a href="#">
-                    <h4>Solutions de Maison Connectée</h4>
-                  </a>
+                  <NavLink to="detail-domotique">
+                  <h4>Solutions de Maison Connectée</h4>
+                  </NavLink>
                   <p>
                     Automatisez et contrôlez votre maison avec des solutions
                     intelligentes : éclairage, sécurité, chauffage et plus
@@ -210,9 +212,9 @@ const ServiceList = () => {
                   <i className="bi bi-pc-display-horizontal"></i>
                 </div>
                 <div className="service-card-text">
-                  <a href="#">
-                    <h4>Formations Professionnelles</h4>
-                  </a>
+                  <NavLink to="detail-formation">
+                  <h4>Formations Professionnelles</h4>
+                  </NavLink>
                   <p>
                     Des formations pratiques en développement web, mobile,
                     administration système et domotique, adaptées à tous les
@@ -237,9 +239,9 @@ const ServiceList = () => {
                   <i className="bi bi-laptop"></i>
                 </div>
                 <div className="service-card-text">
-                  <a href="#">
-                    <h4>Consultation en IT</h4>
-                  </a>
+                  <NavLink to="detail-consulting">
+                  <h4>Consultation en IT</h4>
+                  </NavLink>
                   <p>
                     Accompagnement et conseils stratégiques en technologies de
                     l'information pour optimiser vos projets et infrastructures.

@@ -3,8 +3,8 @@ import "./teamContend.css";
 
 const Teamcontend = () => {
   return (
-    <div className="container mt-5">
-    <div className="row justify-content-center">
+    <div className="container mt-2">
+    <div className="row justify-content-start">
       <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
         <div className="service-card d-flex flex-column">
           <div className="service-card-img">

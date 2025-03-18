@@ -1,5 +1,6 @@
 import React from "react";
 import "./homeSlider.css";
+import { NavLink } from "react-router-dom";
 
 const HomeSlider = () => {
   return (
@@ -21,9 +22,11 @@ const HomeSlider = () => {
               L’optimisation continue pour garantir un environnement stable et
               sûr.
             </p>
+            <NavLink to="contact">
             <button type="button" className="btn btn-primary btn-lg custom-btn">
               Contactez-nous
             </button>
+            </NavLink>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
@@ -38,9 +41,11 @@ const HomeSlider = () => {
               Nous créons des bases solides pour une performance durable et
               invisible.
             </p>
+            <NavLink to="about">
             <button type="button" className="btn btn-primary btn-lg custom-btn">
               Explorez nos approches
             </button>
+            </NavLink>
           </div>
         </div>
         <div className="carousel-item">
@@ -55,9 +60,11 @@ const HomeSlider = () => {
               Des solutions agiles qui s'adaptent à vos besoins pour un avenir
               digital optimisé.
             </p>
+            <NavLink to="portfolio">
             <button type="button" className="btn btn-primary btn-lg custom-btn">
               Découvrez nos services
             </button>
+            </NavLink>
           </div>
         </div>
       </div>

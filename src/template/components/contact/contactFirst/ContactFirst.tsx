@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactFirst() {
   return (
-    <section className="contact-card-area pt-70 pb-100">
+    <section className="contact-card-area pt-2 pb-5">
     <div className="container">
         <div className="row justify-content-center">
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
